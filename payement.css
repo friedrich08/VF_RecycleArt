@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Couleur de fond clair */
+    color: #333; /* Couleur du texte */
+}
+
+h1, h2 {
+    color:rgb(74, 172, 74); /* Couleur orange */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 1.5rem;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 500px; /* Largeur maximale */
+    margin: 80px auto; /* Centrer le conteneur */
+    padding: 20px;
+    background-color: white; /* Couleur de fond blanche */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Styles des formulaires */
+form {
+    margin-bottom: 20px; /* Espacement entre les formulaires */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px; /* Espacement autour des labels */
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; /* Largeur à 100% */
+    padding: 10px; /* Espacement interne */
+    margin-bottom: 15px; /* Espacement en bas */
+    border: 1px solid #ddd; /* Bordure fine */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 1rem; /* Taille de police */
+}
+
+button {
+    width: 100%; /* Largeur à 100% */
+    padding: 10px; /* Espacement interne */
+    background-color:green; /* Couleur de fond orange */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 1rem; /* Taille de police */
+    cursor: pointer; /* Curseur pointer */
+    transition: background-color 0.3s ease; /* Transition pour le hover */
+}
+
+button:hover {
+    background-color: green; /* Couleur de fond orange foncé au survol */
+}
+
+/* Footer (optionnel) */
+footer {
+    background-color: #333; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px; /* Espacement en haut */
+}

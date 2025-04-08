@@ -1,0 +1,141 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7e6; /* Fond clair avec une teinte légèrement verdâtre */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50; /* Vert principal pour la barre de navigation */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.navbar-brand img.logo {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-item .btn-orange {
+    background-color: #4CAF50; /* Vert pour les boutons */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item .btn-orange:hover {
+    background-color: #3e8e41; /* Vert foncé au survol */
+}
+
+/* Contenu principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Vert pour le titre */
+    margin-bottom: 20px;
+}
+
+/* Tableau du panier */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50; /* Vert pour l'en-tête du tableau */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Lignes alternées en gris clair */
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #e6f7e6; /* Fond légèrement vert pour le total */
+}
+
+/* Boutons */
+.pay-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Vert pour les boutons d'action */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.pay-btn:hover {
+    background-color: #3e8e41; /* Vert foncé au survol */
+}
+
+/* Champ de quantité */
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Message vide */
+.empty-cart {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #4CAF50; /* Vert pour le message "panier vide" */
+}
+
+/* Liens de suppression */
+.remove-link {
+    color: #FF5252; /* Rouge pour les liens de suppression */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.remove-link:hover {
+    text-decoration: none;
+}

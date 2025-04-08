@@ -1,0 +1,132 @@
+body {
+    background-color: #f8f9fa; /* Gris clair pour le fond */
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-color: #ffffff; /* Fond blanc pour le formulaire */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+h2 {
+    color: rgb(79, 224, 79); /* Orange vif pour le titre */
+    font-weight: bold;
+    font-size: 24px; /* Taille du titre */
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333; /* Gris foncé pour les labels */
+}
+
+.form-container input[type="number"],
+.form-container input[type="text"],
+.form-container select,
+.form-container input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f9fa; /* Fond gris clair pour les champs */
+}
+
+.form-container input[type="number"]:focus,
+.form-container input[type="text"]:focus,
+.form-container select:focus,
+.form-container input[type="file"]:focus {
+    border-color: green; /* Bordure orange lors du focus */
+    outline: none;
+}
+
+.btn-orange {
+    background-color: green; /* Orange vif */
+    color: #fff; /* Blanc pour le texte */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-orange:hover {
+    background-color:rgb(67, 232, 67); /* Orange foncé au survol */
+}
+
+.alert {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.alert-success {
+    background-color: #d4edda; /* Vert clair pour le succès */
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Rouge pâle pour l'erreur */
+    color: #721c24;
+}
+
+.navbar {
+    background-color: #ffffff; /* Navbar blanche */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    width: 120px; /* Ajustez la taille de votre logo */
+}
+
+.navbar a.nav-link {
+    color: green !important; /* Orange pour les liens */
+}
+
+.navbar a.nav-link:hover {
+    color:green !important; /* Orange foncé au survol */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+footer {
+    background-color: #343a40; /* Fond sombre */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .form-container {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+.carousel-item-active{
+    color: green;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.logo{
+    border-radius: 50%;
+}
