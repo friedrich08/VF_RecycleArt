@@ -10,4 +10,3 @@ EXPOSE 80
 
 CMD ["apache2-foreground"]
 
-DirectoryIndex accueil.php
